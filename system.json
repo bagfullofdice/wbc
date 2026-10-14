@@ -1,0 +1,49 @@
+{
+  "id": "wbc",
+  "title": "White Box Cyclopedia",
+  "description": "Unofficial White Box Cyclopedia game system framework.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Phil Carr"
+    }
+  ],
+  "esmodules": [
+    "scripts/wbc.mjs"
+  ],
+  "styles": [
+    "styles/wbc.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "character": {},
+      "npc": {}
+    },
+    "Item": {
+      "weapon": {},
+      "armor": {},
+      "equipment": {},
+      "spell": {},
+      "feature": {},
+      "class": {},
+      "ancestry": {}
+    }
+  },
+  "url": "https://github.com/bagfullofdice/wbc",
+  "initiative": "1d6",
+  "grid": {
+    "distance": 5,
+    "units": "ft"
+  }
+}
