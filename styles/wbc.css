@@ -1,0 +1,16 @@
+.wbc { --wbc-ink:#29251e; --wbc-accent:#713323; }
+.wbc .window-content {background:#f3eddf;color:var(--wbc-ink);padding:16px;overflow:auto;}
+.wbc .wbc-body {display:flex;flex-direction:column;gap:12px;font-family:Georgia,serif;}
+.wbc .identity {display:flex;align-items:center;gap:16px;border-bottom:3px double var(--wbc-accent);padding-bottom:14px;}
+.wbc .identity img {width:80px;height:80px;object-fit:contain;border:1px solid #8a7760;}
+.wbc .identity>div {flex:1;}.wbc .name {font-size:24px;height:40px;}
+.wbc h2 {font-size:19px;color:var(--wbc-accent);border-bottom:1px solid #a3937b;margin:8px 0;display:flex;justify-content:space-between;align-items:center;}
+.wbc h2 button {flex:0 0 auto;width:auto;font-size:12px;}
+.wbc .grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;}
+.wbc .abilities {display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;}
+.wbc label {display:flex;flex-direction:column;gap:5px;font-size:13px;text-transform:capitalize;}
+.wbc .abilities label {text-align:center;font-size:12px;}.wbc .abilities input {text-align:center;font-size:22px;height:38px;}
+.wbc input,.wbc textarea {color:var(--wbc-ink);background:#fff9ee;border:1px solid #a3937b;width:100%;}
+.wbc input[type=checkbox] {width:20px;}.wbc textarea {resize:vertical;min-height:90px;}
+.wbc .pair {display:flex;gap:5px;}.wbc .item-row {display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px dotted #b9ac98;}
+.wbc .item-row button {width:auto;}.wbc .item-row button:first-child {flex:1;text-align:left;}.wbc .empty {opacity:.7;font-style:italic;}

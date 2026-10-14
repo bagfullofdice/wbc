@@ -1,0 +1,17 @@
+{
+  "TYPES": {
+    "Actor": {
+      "character": "Character",
+      "npc": "NPC / Monster"
+    },
+    "Item": {
+      "weapon": "Weapon",
+      "armor": "Armor",
+      "equipment": "Equipment",
+      "spell": "Spell",
+      "feature": "Feature",
+      "class": "Class",
+      "ancestry": "Ancestry"
+    }
+  }
+}
